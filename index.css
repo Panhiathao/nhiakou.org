@@ -1,13 +1,16 @@
+html {
+    font-size: 12pt;
+}
+
 body {
     margin: 0;
-    background: grey;
+    background: lightseagreen;
     display: flex;
     flex-direction: column;
 }
 
 header {
     height: 15vh;
-    background: yellow;
     display: flex;
     flex-direction: row;
 }
@@ -30,7 +33,6 @@ header section:last-child {
 
 main {
     height: 75vh;
-    background: skyblue;
     display: flex;
     flex-direction: row;
 }
@@ -45,6 +47,8 @@ main section:nth-of-type(2) {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    overflow-y: scroll;
+    padding: 100px 0;
 }
 
 main section article {
@@ -56,7 +60,7 @@ main section:nth-of-type(3) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 main section nav {
@@ -66,7 +70,6 @@ main section nav {
 
 footer {
     height: 10vh;
-    background: pink;
     display: flex;
     flex-direction: row;
 }
@@ -97,10 +100,31 @@ img {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.5rem;
 }
 
 iframe {
     aspect-ratio: 560/315;
     width: 100%;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+small {
+    font-size: 1.5rem;
+}
+
+select {
+    font-size: 1.5rem;
 }
